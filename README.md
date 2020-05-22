@@ -5,7 +5,11 @@
 To start this app enter
 
 ```
-yarn && yarn start
+yarn
+cd ios
+pod install
+cd ../
+yarn start
 ```
 
 ### ONLY iOS ###
